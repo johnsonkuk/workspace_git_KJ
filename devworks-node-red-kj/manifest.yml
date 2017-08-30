@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: devworks-node-red-kj
+  host: devworks-node-red-kj
+  disk_quota: 1024M
+  services:
+  - Language Translator-yf
+  - devworks-node-red-kj-cloudantNoSQLDB
+  - Conversation-3l
